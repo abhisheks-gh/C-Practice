@@ -1,4 +1,4 @@
-/* Program to Calculate Area and Circumference of Circle. */
+// Program to Calculate Area and Circumference of Circle.
 
 #include <stdio.h>
 
@@ -17,4 +17,3 @@ int main()
   
     return 0;
 }
-     
