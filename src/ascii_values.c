@@ -1,5 +1,7 @@
-/* Program to print all ASCII Value Table (values and associated character) */
+// Program to print all ASCII Value Table (values and associated character)
+
 #include <stdio.h>
+
 int main()
 {
     int i;
