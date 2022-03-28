@@ -1,4 +1,4 @@
-// Program to print all ASCII Value Table (values and associated character)
+// Program to print the ASCII value table (values and associated character)
 
 #include <stdio.h>
 
