@@ -5,7 +5,8 @@
 int main()
 {
     int i;
-    for (i = 0; i <= 255; i++) /* Total 256 ASCII characters are there */
+    // Total 256 ASCII characters are there
+    for (i = 0; i <= 255; i++) 
     {
         printf("ASCII value of character %c=%d\n", i, i);
     }
