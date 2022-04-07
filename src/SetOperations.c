@@ -1,6 +1,8 @@
 // Program to implement set operations.
+
 #include <stdio.h>
 #include <stdlib.h>
+
 void intersection_set(int arr1[11],int arr2[11])
 {
     printf("Intersection of A and B = ");
@@ -19,6 +21,7 @@ void intersection_set(int arr1[11],int arr2[11])
             printf("%d  ",arr1[i]);
         }
 }
+
 void set_difference(int arr1[11],int arr2[11])
 {
     printf("Set Difference A-B = \n");
@@ -37,6 +40,7 @@ void set_difference(int arr1[11],int arr2[11])
         printf("%d  ",arr1[i]);
     }
 }
+
 void union_set(int arr1[11],int arr2[11],int arr3[22])
 {
     int i;
