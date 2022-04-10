@@ -1,4 +1,4 @@
-/*Program to calculate income tax*/
+// Program to calculate income tax
 #include <stdio.h>
 int main()
 {
