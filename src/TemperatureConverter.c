@@ -1,11 +1,16 @@
-/* Program to convert temperature from degree centigrade to Fahrenheit */
+// Program to convert temperature from degree centigrade to Fahrenheit 
+
 #include <stdio.h>
+
 int main()
 {
-    float celcius, farenheit;
+    float celsius, fahrenheit;
+    
     printf("Enter the temperature (in Degree centigrade)\n");
-    scanf("%f", &celcius);
-    farenheit = (celcius * 9 / 5) + 32; /* Formulae to covert degree celcius into farenheit*/
-    printf("The value of this celcius temperature in farenheit is %f\n", farenheit);
+    scanf("%f", &celsius);
+    
+    fahrenheit = (celsius * 9 / 5) + 32; /* Formulae to covert degree celsius into fahrenheit*/
+    printf("The value of this celsius temperature in farenheit is %f\n", fahrenheit);
+    
     return 0;
 }
