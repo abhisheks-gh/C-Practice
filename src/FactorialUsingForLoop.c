@@ -4,15 +4,16 @@
 
 int main() 
 {
-    int i,n,factorial=1;
+    int i, n, factorial = 1;
     printf("Enter the number\n");
-    scanf("%d",&n);         
-    for(i=1;i<=n;i++) { 
-        // factorial *= i is same as factorial = factorial*i
-        factorial*=i;       
+    scanf("%d", &n);
+    
+    for (i = 1; i <= n; i++) { 
+        // factorial *= i is same as factorial = factorial * i
+        factorial *= i;       
     }   
     
-    printf("The factorial of %d is %d\n",n,factorial);
+    printf("The factorial of %d is %d\n", n, factorial);
     
     return 0;
 }
