@@ -1,5 +1,7 @@
-/* Program to store book information using structure. (book id, book title, price) */
+// Program to store book information using structure. (book id, book title, price) 
+
 #include <stdio.h>
+
 int main()
 {
     struct book
@@ -19,5 +21,6 @@ int main()
     printf("\n%c %f %d", b1.book_id, b1.book_title, b1.price);
     printf("\n%c %f %d", b2.book_id, b2.book_title, b2.price);
     printf("\n%c %f %d", b3.book_id, b3.book_title, b3.price);
+    
     return 0;
 }
