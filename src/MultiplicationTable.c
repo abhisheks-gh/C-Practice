@@ -2,15 +2,15 @@
 
 #include <stdio.h>
 
-int main() {
-    int i,n;
+int main() 
+{
+    int i, n;
     
     printf("Enter the number\n");
     scanf("%d", &n);
     
-    for (i = 10; i > 0; i--) {
+    for (i = 10; i > 0; i--)
         printf("The value of n is %d\n", i * n);
-    }
     
     return 0;
 }
