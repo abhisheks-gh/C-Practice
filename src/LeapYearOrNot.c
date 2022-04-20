@@ -10,7 +10,7 @@ int main() {
     if(year % 4 == 0) {
         printf("This is a leap year\n");
     }
-    else{
+    else {
         printf("This is not a leap year\n");
     }
     
