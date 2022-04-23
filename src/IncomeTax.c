@@ -1,10 +1,13 @@
 // Program to calculate income tax
+
 #include <stdio.h>
+
 int main()
 {
     float tax = 0, income;
     printf("Enter your income\n"); /*There is no tax below 2.5 lakhs*/
     scanf("%f",&income);
+    
     if (income >= 250000 && income <= 500000)
     {
         tax = tax + 0.05 * (income - 250000);
