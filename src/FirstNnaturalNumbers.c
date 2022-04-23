@@ -1,4 +1,4 @@
-/* Program to print the sum of first 10 natural numbers using while loop. */
+// Program to print the sum of first 10 natural numbers using while loop. 
 
 #include<stdio.h>
 
