@@ -1,28 +1,33 @@
-/*Floyd warshall's algorithm*/
+// Floyd Warshall's Algorithm
+
 #include<stdio.h>
 #include<conio.h>
+
 #pragma warn-rvl
 
 void main()
 {
-  int B[10][10],i,j,k,n;
-  char A[5][10];//for name of the nodes
+  int B[10][10], i, j, k, n;
   
-  printf("\nEnter number of nodes/vertices: ");         //number of nodes 
-  scanf("%d",&n);
+  // for storing the name of the nodes
+  char A[5][10];  
+  
+  printf("\nEnter number of nodes/vertices: ");         
+  scanf("%d", &n);
   printf("\nEnter the initials (example assam= A) of the nodes (and follow the numeric code for further reference) :");
-  for(i=0;i<n;i++)                                      //loop for names of the nodes
-  {   printf("\nnode no. %d",i+1);
-      scanf("%s",&A[i][0]);
+  // loop for names of the nodes
+  for (i = 0; i < n; i++)                                      
+  {   printf("\nnode no. %d", i+1);
+      scanf("%s", &A[i][0]);
   }
   printf("\n Enter the (weighted) path parameter between the mentioned nodes----\n for no existing path enter '0': ");
-  for(i=0;i<n;i++)
-  { for(j=0;j<n;j++)
+  for (i = 0; i < n; i++)
+  { for (j = 0; j < n; j++)
      {
-        if(i==j)
-        B[i][j]=0;
-        else
-        {printf("\nform: %s to %s",A[i],A[j]);
+        if (i == j)
+          B[i][j] = 0;
+        else {
+          printf("\nform: %s to %s",A[i],A[j]);
          scanf("%d",&B[i][j]);
          if(B[i][j]==0)
          B[i][j]=9000;
