@@ -1,6 +1,6 @@
 // Functions & related terms
 
-#include<stdio.h>
+#include <stdio.h>
 
 void display() {                               // function prototype
     printf("Good morning Abhishek\n");         // funtion definition
